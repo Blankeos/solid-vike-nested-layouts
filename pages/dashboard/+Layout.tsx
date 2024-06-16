@@ -2,7 +2,7 @@ import { createSignal, FlowProps } from "solid-js";
 
 export default function DashboardLayout(props: FlowProps) {
   return (
-    <div>
+    <>
       <nav style={{ background: "lightgreen" }}>
         <h1>Dashboard Layout</h1>
         <a href="/">Home</a>
@@ -14,7 +14,7 @@ export default function DashboardLayout(props: FlowProps) {
         <Counter />
       </nav>
       {props.children}
-    </div>
+    </>
   );
 }
 

@@ -13,9 +13,9 @@
   "devDependencies": {
     "@auth/core": "^0.32.0",
     "typescript": "^5.4.5",
-    "vite": "^5.2.13",
     "vike": "^0.4.176",
-    "vike-solid": "link:/Users/carlo/Desktop/Projects/vike-solid/vike-solid"
+    "vike-solid": "npm:@blankeos/vike-solid@^0.4.8",
+    "vite": "^5.2.13"
   },
   "dependencies": {
     "cross-fetch": "^4.0.0",
